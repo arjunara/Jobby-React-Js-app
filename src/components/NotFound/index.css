@@ -1,0 +1,43 @@
+.app-bg-container {
+  background-color: #121212;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.not-found-img {
+  width: 90%;
+}
+@media screen and (max-width: 767px) {
+  .not-found-img {
+    width: 324px;
+  }
+}
+.not-found-heading {
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.not-found-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  color: #f8fafc;
+}
+@media screen and (max-width: 767px) {
+  .not-found-heading {
+    font-size: 32px;
+  }
+  .not-found-description {
+    text-align: center;
+    width: 90%;
+  }
+}

@@ -1,0 +1,80 @@
+.login-bg-container {
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-card-container {
+  border-radius: 15px;
+  width: 40%;
+  max-width: 521px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .login-card-container {
+    width: 80%;
+  }
+}
+.app-logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .app-logo {
+    width: 130px;
+  }
+}
+.form {
+  width: 80%;
+  margin-top: 30px;
+}
+.input-container {
+  margin-bottom: 25px;
+}
+.label-text {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #f8fafc;
+}
+.input {
+  border: 2px solid #2c364c;
+  border-radius: 6px;
+  height: 45px;
+  width: 100%;
+  background-color: transparent;
+  padding-left: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+  outline: none;
+}
+.submit-button {
+  height: 45px;
+  width: 100%;
+  background-color: #4f46e5;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22px;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+}
+.error-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 8px;
+}
